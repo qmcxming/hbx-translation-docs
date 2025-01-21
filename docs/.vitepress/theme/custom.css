@@ -1,0 +1,28 @@
+:root {
+  /* 首页标题颜色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(to right, #5A9CF8 0%, #2575fc 100%);
+  /* 主题色 */
+  --vp-c-brand-1: #2575fc;
+  --vp-home-hero-image-background-image: linear-gradient(to right,#5A9CF8 0%,#2575fc  100%);
+  --vp-home-hero-image-filter: blur(40px);
+  --vp-button-brand-bg: #2575fc;
+  --vp-button-brand-hover-bg: #5A9CF8;
+}
+
+img {
+  border-radius: 10px; 
+}
+
+.image-src {
+  border-radius: 0px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 960px) {
+  .image-src {
+    max-width: 190px !important;
+    max-height: 190px !important;
+  }
+}
