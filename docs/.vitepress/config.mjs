@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "HBuilderX翻译插件",
   description: "这是一个HBuilderX的翻译插件",
+  base: '/hbx-translation-docs/',
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
