@@ -6,6 +6,9 @@ export default defineConfig({
   description: "这是一个HBuilderX的翻译插件",
   base: '/hbx-translation-docs/',
   lastUpdated: true,
+  head: [
+    ['link', { rel: 'icon', href: '/hbx-translation-docs/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -25,7 +28,7 @@ export default defineConfig({
           { text: '起步', link: '/start' },
           { text: '配置', link: '/config' },
           {
-            text: '使用', link: '/use/shortcut', items:
+            text: '使用', link: '/use/shortcut', collapsed: true , items:
             [
               { text: '快捷键', link: '/use/shortcut' },
               { text: '翻译', link: '/use/translate' },
